@@ -49,6 +49,7 @@ body {
 
 p {
   font-family: "Montserrat", sans-serif;
+  font-size: 80%;
 }
 
 .type {
@@ -129,6 +130,16 @@ button p {
   color: hsl(228, 45%, 44%);
 }
 
+@media screen and (max-width: 1375px) {
+  .container {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .container {
+    width: 80%;
+  }
+}
 @media screen and (max-width: 767px) {
   body {
     height: auto;
